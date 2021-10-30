@@ -1,0 +1,25 @@
+.nav__main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.nav__logo {
+  margin-right: 50%;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: black;
+  padding-top: 60px;
+}
+
+.nav__link:active {
+  border-top: 1px solid cornflowerblue;
+}
+
+.accom__card {
+  text-decoration: none;
+  color: black;
+}
