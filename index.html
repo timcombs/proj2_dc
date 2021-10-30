@@ -1,53 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/styles.css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-<body>
-  <header>
-    <!-- <nav>
+  <body>
+    <header>
+      <!-- <nav>
       <ul>
         <li><a href="#accom">Accommodations</a></li>
       </ul>
     </nav> -->
 
-    <nav class="nav__main">
-      <a class="nav__link nav__logo" href="index.html"><img src="images/circle.png" alt="logo"></a>
-      <a class="nav__link" href="#accom">Accommodations</a>
-      <a class="nav__link" href="#activ">Activities</a>
-    </nav>
-  </header>
+      <nav class="nav__main">
+        <a class="nav__link nav__logo" href="index.html"
+          ><img src="images/circle.png" alt="logo"
+        /></a>
+        <a class="nav__link" href="#accom">Accommodations</a>
+        <a class="nav__link" href="#activ">Activities</a>
+      </nav>
+    </header>
 
-  <main>
-    <section id="accom" class="accom">
-      <h2>Accommodations</h2>
-    </section>
+    <main>
+      <section id="accom" class="accom">
+        <h2>Accommodations</h2>
+      </section>
 
-    <section id="activ" class="activ">
-      <h2>Activities</h2>
+      <section id="pop" class="pop">
+        <h2>Most Popular</h2>
 
-      <a href="#" class="accom__card">
-        <img src="" alt="">
-        <div class="accom__text">
-          <h3>some hotel</h3>
-          <p>some price info</p>
-          <div>
-            <i class="fa fa-star">*</i>
-            <i class="fa fa-star">*</i>
-            <i class="fa fa-star">*</i>
-            <i class="fa fa-star">*</i>
-            <i class="fa fa-star">*</i>
-          </div>
+        <div class="pop-card-wrap">
+          <section class="pop-card">
+            <a src="#">
+              <img src="some.png" alt="some thing" />
+              <div class="pop-card-text-wrap">
+                <h3>this cool card</h3>
+                <p>description of cool card</p>
+                <div>*****</div>
+              </div>
+            </a>
+          </section>
+
+          <section class="pop-card">
+            <a src="#">
+              <img src="some.png" alt="some thing" />
+              <div class="pop-card-text-wrap">
+                <h3>this cool card</h3>
+                <p>description of cool card</p>
+                <div>*****</div>
+              </div>
+            </a>
+          </section>
+
+          <section class="pop-card">
+            <a src="#">
+              <img src="some.png" alt="some thing" />
+              <div class="pop-card-text-wrap">
+                <h3>this cool card</h3>
+                <p>description of cool card</p>
+                <div>*****</div>
+              </div>
+            </a>
+          </section>
         </div>
-      </a>
-    </section>
-  </main>
+      </section>
 
-  <footer></footer>
-</body>
+      <section id="activ" class="activ">
+        <h2>Activities</h2>
+
+        <a href="#" class="accom__card">
+          <img src="" alt="" />
+          <div class="accom__text">
+            <h3>some hotel</h3>
+            <p>some price info</p>
+            <div>
+              <i class="fa fa-star">*</i>
+              <i class="fa fa-star">*</i>
+              <i class="fa fa-star">*</i>
+              <i class="fa fa-star">*</i>
+              <i class="fa fa-star">*</i>
+            </div>
+          </div>
+        </a>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
 </html>
