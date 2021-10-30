@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .nav__logo {
@@ -22,4 +21,15 @@
 .accom__card {
   text-decoration: none;
   color: black;
+}
+
+.pop-card {
+  width: 30%;
+  background-color: cornflowerblue;
+  border-radius: 15px;
+}
+
+.pop-card-wrap {
+  display: flex;
+  flex-wrap: wrap;
 }
